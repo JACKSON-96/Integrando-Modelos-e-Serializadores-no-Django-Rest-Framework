@@ -1,51 +1,24 @@
-# Bookstore
+projeto funciona assim 
 
-Bookstore APP from Backend Python course from EBAC
-
-## Prerequisites
-
-```
-Python 3.5>
-Poetry
-Docker && docker-compose
-
-```
-
-## Quickstart
-
-1. Clone this project
-
-   ```shell
-   git clone git@github.com:drsantos20/bookstore.git
-   ```
-
-2. Install dependencies:
-
-   ```shell
-   cd bookstore
-   poetry install
-   ```
-   pip install -r requirements.txt
-
-3. Run local dev server:
-
-   ```shell
-   poetry run manage.py migrate
-   poetry run python manage.py runserver
-   ```
-   
-4. Run docker dev server environment:
-
-   ```shell
-   docker-compose up -d --build 
-   docker-compose exec web python manage.py migrate
-   ```
-
-5. Run tests inside of docker:
-
-   ```shell
-   docker-compose exec web python manage.py test
-   ```
-
-
-
+cd bookstore
+pip freeze
+pip freeze > requirements.txt
+pip install -r requirements.txt
+python -m venv venv
+venv\Scripts\activate
+pip list
+pip install Django
+poetry run manage.py migrate
+pip install djangorestframework
+pip install django-debug-toolbar
+pip install gitpython
+poetry show
+pip install whitenoise
+python manage.py migrate
+poetry export --with dev --without-hashes -f requirements.txt -o requirements.txt.
+pip install --upgrade packaging 
+python manage.py createsuperuser
+pip install -r requirements.txt
+poetry run manage.py migrate
+pip install django_extensions
+poetry run python manage.py runserver
