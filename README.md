@@ -1,24 +1,45 @@
 projeto funciona assim 
 
-cd bookstore
-pip freeze
-pip freeze > requirements.txt
-pip install -r requirements.txt
-python -m venv venv
-venv\Scripts\activate
-pip list
-pip install Django
-poetry run manage.py migrate
-pip install djangorestframework
-pip install django-debug-toolbar
-pip install gitpython
-poetry show
-pip install whitenoise
-python manage.py migrate
-poetry export --with dev --without-hashes -f requirements.txt -o requirements.txt.
-pip install --upgrade packaging 
-python manage.py createsuperuser
-pip install -r requirements.txt
-poetry run manage.py migrate
-pip install django_extensions
-poetry run python manage.py runserver
+01-cd bookstore
+
+02-pip freeze
+
+03-pip freeze > requirements.txt
+
+04-pip install -r requirements.txt
+
+05-python -m venv venv
+
+06-venv\Scripts\activate
+
+07-pip list
+
+08-pip install Django
+
+09-poetry run manage.py migrate
+
+10-pip install djangorestframework
+
+11-pip install django-debug-toolbar
+
+12-pip install gitpython
+
+13-poetry show
+
+14-pip install whitenoise
+
+15-python manage.py migrate
+
+16-poetry export --with dev --without-hashes -f requirements.txt -o requirements.txt.
+
+17-pip install --upgrade packaging 
+
+18-python manage.py createsuperuser
+
+19-pip install -r requirements.txt
+
+20-poetry run manage.py migrate
+
+21-pip install django_extensions
+
+22-poetry run python manage.py runserver
