@@ -1,15 +1,15 @@
-projeto funciona assim 
-
+00-projeto funciona assim
+-
 01-cd bookstore
-
+-
 02-pip freeze
-
+-
 03-pip freeze > requirements.txt
-
+-
 04-pip install -r requirements.txt
-
+-
 05-python -m venv venv
-
+-
 06-venv\Scripts\activate
 
 07-pip list
